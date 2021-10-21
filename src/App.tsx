@@ -8,7 +8,7 @@ export function App() {
   return (
     <main className={`${styles.contentWrapper}`}>
       <MessageList />
-      <SendMessageForm />
+      {/* <SendMessageForm /> */}
       <LoginBox />
     </main>
   );
